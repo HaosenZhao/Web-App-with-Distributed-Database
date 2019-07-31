@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h1> Your Blog </h1>
+{{range .Pages}}
+    <h2>[<a href="/view/{{.Title}}">{{.Title}}</a>]</h2>
+    <div><p>{{.FirstLine}}</p></div>
+    <br>
+{{end}}
+<hr>
+
+<h1> Create a new blog here </h1>
+<form action="/create" method="POST">
+    <div>Title: <input type="text" name = "title"></div>
+    <div><input type="submit" value="Create"></div>
+</form>
+</body>
+</html>
