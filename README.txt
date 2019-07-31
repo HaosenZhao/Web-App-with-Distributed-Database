@@ -1,6 +1,6 @@
-Haosen Zhao (hz1126)
+Haosen Zhao
 
-• Instructions: Set the GOPATH and cd to this directory (same as instructions in phase 3)
+• Instructions: Set the GOPATH and cd to this direct
 
 Backend: 
 1. cd to Backend directory (important! or path error may happen) and build back.go
@@ -33,7 +33,7 @@ If user click on delete, this will delete current page and return to main page.
 Create a new blog here allows the user to create an empty blog with the title given, and lead to the edit page.
 If the number of working replicas falls below quorum, your system may reject requests until the quorum is recovered.
 
-• The state of your work: 
+• The state of work: 
 1. The backend now can handle concurrent requests with distributed backends
 2. The system can withstand the failure of up to lower(n/2) failure of backends 
 3. -If some number of backends start, the data will be entered through the web interface. 
